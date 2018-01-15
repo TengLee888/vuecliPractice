@@ -1,5 +1,6 @@
 # vueclipractice
-
+- 實作多頁面應用
+https://www.jianshu.com/p/0a30aca71b16
 > A Vue.js project
 
 ## Build Setup
