@@ -1,0 +1,5 @@
+@import "~styles/modules/fontColor";
+// component放*, body, 之類超出component範圍之類的tag，也只會在component自己範圍有效
+*, body{
+  color: $fontColor;
+}

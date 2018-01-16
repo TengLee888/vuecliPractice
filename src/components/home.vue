@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <p>I am HelloWorld</p>
+  <div class="home">
+    <p>I am home</p>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -22,22 +22,18 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
-  name: 'HelloWorld',
+  name: 'home',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'I am home from data'
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang='scss' scoped type='text/css'>
-*{
-  color: red;
-  h1, h2, p {
-    color: yellow;
-  }
-}
+<style lang='scss' scoped>
+@import '~styles/home';
 </style>
